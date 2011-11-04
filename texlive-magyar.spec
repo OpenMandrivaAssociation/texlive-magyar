@@ -1,3 +1,9 @@
+# revision 24012
+# category Package
+# catalog-ctan /language/hungarian/babel/magyar.ldf
+# catalog-date 2011-09-11 09:17:01 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-magyar
 Version:	20110911
 Release:	1
@@ -19,6 +25,7 @@ language definition for babel.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/latex/magyar/magyar.ldf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -29,3 +36,5 @@ language definition for babel.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
