@@ -16,7 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/magyar.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 This is an interim release of a new version of the Magyar
@@ -25,7 +24,6 @@ language definition for babel.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/latex/magyar/magyar.ldf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,5 +34,3 @@ language definition for babel.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
