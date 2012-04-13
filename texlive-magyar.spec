@@ -1,12 +1,12 @@
-# revision 24012
+# revision 25806
 # category Package
 # catalog-ctan /language/hungarian/babel/magyar.ldf
-# catalog-date 2011-09-11 09:17:01 +0200
+# catalog-date 2012-03-26 14:33:04 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-magyar
-Version:	20110911
-Release:	2
+Version:	20120326
+Release:	1
 Summary:	Hungarian language definition for Babel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hungarian/babel/magyar.ldf
