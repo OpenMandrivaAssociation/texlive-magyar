@@ -34,3 +34,21 @@ language definition for babel.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120326-1
++ Revision: 790675
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110911-2
++ Revision: 753677
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110911-1
++ Revision: 718939
+- texlive-magyar
+- texlive-magyar
+- texlive-magyar
+- texlive-magyar
+
