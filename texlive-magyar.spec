@@ -9,7 +9,7 @@ Version:	20120326
 Release:	11
 Summary:	Hungarian language definition for Babel
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/hungarian/babel/magyar.ldf
+URL:		https://www.ctan.org/tex-archive/language/hungarian/babel/magyar.ldf
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/magyar.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/magyar.doc.tar.xz
